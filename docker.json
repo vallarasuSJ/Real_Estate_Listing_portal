@@ -1,0 +1,10 @@
+{
+    "env": "dev",
+    "port": "3000",
+    "app_name": "real_estate",
+    "database_url": "postgres://postgres:root@go_db:5432/real_estate?sslmode=disable",
+    "max_db_conn": 10,
+    "token_size": 256,
+    "token_expiry": 24,
+    "refresh_token_expiry": 2160
+}
